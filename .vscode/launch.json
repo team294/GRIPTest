@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "DonJavaTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "GRIPTest",
+            "env": {
+                "OPENCV_HOME": "C:/Users/Team294/Documents/Projects/opencv",
+                "OPENCV_LIB": "C:/Users/Team294/Documents/Projects/opencv/build/java/x86",
+                "OPENCV_JAR": "C:/Users/Team294/Documents/Projects/opencv/build/java/opencv-460.jar"
+            }
+        }
+    ]
+}
